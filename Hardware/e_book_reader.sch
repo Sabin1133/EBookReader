@@ -2630,27 +2630,26 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <sheets>
 <sheet>
 <plain>
-<text x="-261.62" y="119.38" size="1.778" layer="91" align="bottom-center">Voltage Supervisor</text>
-<text x="-114.3" y="154.94" size="1.778" layer="91" align="bottom-center">LDO Voltage Regulator</text>
-<text x="-246.38" y="182.88" size="1.778" layer="91" align="bottom-center">EPD Power</text>
-<text x="154.94" y="144.78" size="1.778" layer="91" align="bottom-center">Li-Po Battery Charging Controller</text>
-<text x="269.24" y="139.7" size="1.778" layer="91" align="bottom-center">Battery Charge Level</text>
-<text x="0" y="-10.16" size="1.778" layer="91" align="bottom-center">ESP32 C6</text>
-<text x="-43.18" y="-99.06" size="1.778" layer="91" align="bottom-center">Qwicc / Stemma QT</text>
-<text x="78.74" y="-81.28" size="1.778" layer="91" align="bottom-center">SPI ESD Protection Lines</text>
-<text x="-495.3" y="-167.64" size="1.778" layer="91" align="bottom-center">Environmental Sensor BME688</text>
-<text x="-373.38" y="-172.72" size="1.778" layer="91" align="bottom-center">RTC Module DS3231SN</text>
-<text x="-152.4" y="-325.12" size="1.778" layer="91" align="bottom-center">USB C Connector &amp; ESD Protection</text>
-<text x="20.32" y="-337.82" size="1.778" layer="91" align="bottom-center">External NOR Flash</text>
-<text x="144.78" y="-337.82" size="1.778" layer="91" align="bottom-center">SD Card</text>
-<text x="317.5" y="-177.8" size="1.778" layer="91" align="bottom-center">E-Paper Drive Circuit</text>
-<text x="416.56" y="-185.42" size="1.778" layer="91" align="bottom-center">E-Paper Display Type Selector</text>
-<text x="513.08" y="-165.1" size="1.778" layer="91" align="bottom-center">E-Paper Display Header</text>
+<text x="-246.38" y="182.88" size="1.778" layer="97" align="bottom-center">EPD Power</text>
+<text x="-259.08" y="116.84" size="1.778" layer="97" align="bottom-center">Voltage Supervisor</text>
+<text x="-111.76" y="149.86" size="1.778" layer="97" align="bottom-center">LDO Voltage Regulator</text>
+<text x="154.94" y="144.78" size="1.778" layer="97" align="bottom-center">Li-Po Battery Charging Controller</text>
+<text x="269.24" y="139.7" size="1.778" layer="97" align="bottom-center">Battery Charge Level</text>
+<text x="0" y="-10.16" size="1.778" layer="97" align="bottom-center">Microcontroller</text>
+<text x="-43.18" y="-99.06" size="1.778" layer="97" align="bottom-center">Qwicc / Stemma QT</text>
+<text x="78.74" y="-81.28" size="1.778" layer="97" align="bottom-center">SPI ESD Protection Lines</text>
+<text x="-495.3" y="-167.64" size="1.778" layer="97" align="bottom-center">Environmental Sensor BME688</text>
+<text x="-373.38" y="-172.72" size="1.778" layer="97" align="bottom-center">RTC Module DS3231SN</text>
+<text x="-147.32" y="-320.04" size="1.778" layer="97" align="bottom-center">USB C Connector &amp; ESD Protection</text>
+<text x="20.32" y="-332.74" size="1.778" layer="97" align="bottom-center">External NOR Flash</text>
+<text x="144.78" y="-337.82" size="1.778" layer="97" align="bottom-center">SD Card</text>
+<text x="317.5" y="-175.26" size="1.778" layer="97" align="bottom-center">E-Paper Drive Circuit</text>
+<text x="416.56" y="-182.88" size="1.778" layer="97" align="bottom-center">E-Paper Display Type Selector</text>
+<text x="497.84" y="-147.32" size="1.778" layer="97" align="bottom-center">E-Paper Display Header</text>
 </plain>
 <instances>
 <instance part="VOLREG_XC6220A331MR-G" gate="G$1" x="-114.3" y="121.92" smashed="yes">
 <attribute name="NAME" x="-115.57" y="127" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-90.17" y="127" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="VOLREG_C_BAT_1" gate="G$1" x="-132.08" y="114.3" smashed="yes">
 <attribute name="NAME" x="-140.716" y="114.681" size="1.778" layer="95"/>
@@ -2688,7 +2687,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="VOLSPV_BD5229G-TR" gate="G$1" x="-287.02" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="-290.83" y="88.9" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-308.61" y="73.66" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="VOLSPV_C_DELAY" gate="G$1" x="-314.96" y="71.12" smashed="yes">
 <attribute name="NAME" x="-338.836" y="71.501" size="1.778" layer="95"/>
@@ -2716,7 +2714,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="VOLSPV_RESET_BUTTON" gate="G$1" x="-279.4" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="-286.766" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-276.606" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="-276.86" y="101.6" smashed="yes">
 <attribute name="VALUE" x="-276.987" y="104.775" size="1.778" layer="96" align="bottom-center"/>
@@ -2734,7 +2731,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="VOLSPV_BOOT_BUTTON" gate="G$1" x="-243.84" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="-251.206" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-241.046" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="-241.3" y="101.6" smashed="yes">
 <attribute name="VALUE" x="-241.427" y="104.775" size="1.778" layer="96" align="bottom-center"/>
@@ -2752,7 +2748,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="VOLSPV_CHANGE_BUTTON" gate="G$1" x="-208.28" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="-215.646" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-205.486" y="71.12" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="-205.74" y="101.6" smashed="yes">
 <attribute name="VALUE" x="-205.867" y="104.775" size="1.778" layer="96" align="bottom-center"/>
@@ -2772,7 +2767,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="LPBCC_MCP73831" gate="G$1" x="154.94" y="129.54" smashed="yes">
 <attribute name="NAME" x="144.78" y="135.128" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.32" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="LPBCC_C_BAT_1" gate="G$1" x="116.84" y="121.92" smashed="yes">
 <attribute name="NAME" x="95.504" y="122.301" size="1.778" layer="95"/>
@@ -2808,7 +2802,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="BCL_MAX17048G+T10" gate="G$1" x="269.24" y="116.84" smashed="yes">
 <attribute name="NAME" x="254" y="133.08" size="2.0828" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="256.54" y="97.6" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="GND13" gate="1" x="292.1" y="119.38" smashed="yes">
 <attribute name="VALUE" x="289.56" y="116.84" size="1.778" layer="96"/>
@@ -2823,8 +2816,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 <attribute name="VALUE" x="254" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="ESP32" gate="G$1" x="0" y="-43.18" smashed="yes">
-<attribute name="NAME" x="-5.08" y="-19.558" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-15.24" y="-68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="-2.54" y="-19.558" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="22.86" y="-17.78" smashed="yes">
 <attribute name="VALUE" x="22.733" y="-14.605" size="1.778" layer="96" align="bottom-center"/>
@@ -2862,7 +2854,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_1" gate="G$1" x="45.72" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.18" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="50.8" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SPIESD_R_2" gate="G$1" x="60.96" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.4614" y="-107.95" size="1.778" layer="95" rot="R90"/>
@@ -2870,7 +2861,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_2" gate="G$1" x="60.96" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.04" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SPIESD_R_3" gate="G$1" x="76.2" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.7014" y="-107.95" size="1.778" layer="95" rot="R90"/>
@@ -2878,7 +2868,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_3" gate="G$1" x="76.2" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="81.28" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SPIESD_R_4" gate="G$1" x="91.44" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.9414" y="-107.95" size="1.778" layer="95" rot="R90"/>
@@ -2886,7 +2875,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_4" gate="G$1" x="91.44" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.9" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="96.52" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SPIESD_R_5" gate="G$1" x="106.68" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="105.1814" y="-107.95" size="1.778" layer="95" rot="R90"/>
@@ -2894,7 +2882,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_5" gate="G$1" x="106.68" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="104.14" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="111.76" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SPIESD_R_6" gate="G$1" x="121.92" y="-101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="120.4214" y="-107.95" size="1.778" layer="95" rot="R90"/>
@@ -2902,11 +2889,9 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SPIESD_D_6" gate="G$1" x="121.92" y="-129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="119.38" y="-137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="127" y="-134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="ENVSENS_BME680" gate="G$1" x="-502.92" y="-200.66" smashed="yes">
 <attribute name="NAME" x="-515.6293" y="-187.44" size="2.186390625" layer="95"/>
-<attribute name="VALUE" x="-513.0998" y="-216.1793" size="2.18866875" layer="96"/>
 </instance>
 <instance part="GND20" gate="1" x="-520.7" y="-215.9" smashed="yes">
 <attribute name="VALUE" x="-523.24" y="-218.44" size="1.778" layer="96"/>
@@ -2967,7 +2952,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="RTC_C_SUPERCAP" gate="G$1" x="-309.88" y="-185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="-284.48" y="-179.07" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-304.8" y="-185.42" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND23" gate="1" x="-365.76" y="-215.9" smashed="yes">
 <attribute name="VALUE" x="-368.3" y="-218.44" size="1.778" layer="96"/>
@@ -2977,15 +2961,12 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="USBC_USBLC6-2SC6Y" gate="G$1" x="-76.2" y="-335.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="-105.41" y="-325.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-105.41" y="-340.36" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="USBC_USB" gate="G$1" x="-162.56" y="-345.44" smashed="yes">
 <attribute name="NAME" x="-156.21" y="-340.36" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-140.97" y="-340.36" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="USBC_VARISTOR" gate="G$1" x="-190.5" y="-340.36" smashed="yes">
 <attribute name="NAME" x="-200.66" y="-336.55" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-193.04" y="-346.71" size="1.778" layer="96"/>
 </instance>
 <instance part="USBC_C_USB_2" gate="G$1" x="-83.82" y="-363.22" smashed="yes">
 <attribute name="NAME" x="-82.296" y="-362.839" size="1.778" layer="95"/>
@@ -3026,7 +3007,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="FLASH_NOR" gate="G$1" x="20.32" y="-360.68" smashed="yes">
 <attribute name="NAME" x="10.16" y="-345.44" size="2.54" layer="95"/>
-<attribute name="VALUE" x="2.54" y="-375.92" size="2.54" layer="96"/>
 </instance>
 <instance part="SUPPLY15" gate="G$1" x="-7.62" y="-363.22" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-12.573" y="-361.315" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -3039,7 +3019,6 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="SDC_SDC" gate="G$1" x="124.46" y="-353.06" smashed="yes">
 <attribute name="NAME" x="138.43" y="-347.98" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="161.29" y="-347.98" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND33" gate="1" x="106.68" y="-363.22" smashed="yes">
 <attribute name="VALUE" x="104.14" y="-365.76" size="1.778" layer="96"/>
@@ -3068,19 +3047,15 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </instance>
 <instance part="EPDC_D_1" gate="G$1" x="307.34" y="-190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="306.07" y="-185.42" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="295.91" y="-193.04" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="EPDC_D_2" gate="G$1" x="292.1" y="-203.2" smashed="yes">
 <attribute name="NAME" x="293.37" y="-198.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="303.53" y="-200.66" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="EPDC_D_3" gate="G$1" x="307.34" y="-215.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="306.07" y="-220.98" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="295.91" y="-218.44" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="EPDC_Q" gate="G$1" x="345.44" y="-203.2" smashed="yes">
 <attribute name="NAME" x="356.87" y="-199.39" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="356.87" y="-201.93" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="EPDTS_SJ" gate="1" x="411.48" y="-195.58" smashed="yes">
 <attribute name="NAME" x="406.4" y="-193.04" size="1.778" layer="95"/>
