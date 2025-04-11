@@ -3588,7 +3588,9 @@ design rules under a new name.</description>
 <wire x1="61.8744" y1="5.7912" x2="61.8744" y2="4.4958" width="0.1524" layer="1"/>
 <wire x1="62.7888" y1="6.7056" x2="61.8744" y2="5.7912" width="0.1524" layer="1"/>
 <wire x1="71.7804" y1="6.7056" x2="62.7888" y2="6.7056" width="0.1524" layer="1"/>
-<wire x1="77.9526" y1="0.5334" x2="71.7804" y2="6.7056" width="0.1524" layer="1"/>
+<wire x1="77.9526" y1="0.5334" x2="74.443" y2="4.043" width="0.1524" layer="1"/>
+<wire x1="74.443" y1="4.043" x2="73.793" y2="4.693" width="0.1524" layer="1"/>
+<wire x1="73.793" y1="4.693" x2="71.7804" y2="6.7056" width="0.1524" layer="1"/>
 <wire x1="78.5622" y1="0.5334" x2="77.9526" y2="0.5334" width="0.1524" layer="1"/>
 <wire x1="63.7794" y1="-4.572" x2="63.85" y2="-4.63" width="0.1524" layer="1"/>
 <wire x1="78.579" y1="0.48" x2="78.5622" y2="0.5334" width="0.1524" layer="1"/>
@@ -3632,7 +3634,7 @@ design rules under a new name.</description>
 <wire x1="79.248" y1="-1.0668" x2="79.4004" y2="-1.2192" width="0.1524" layer="1"/>
 <wire x1="78.6384" y1="-1.0668" x2="79.248" y2="-1.0668" width="0.1524" layer="1"/>
 <wire x1="78.6384" y1="-1.9812" x2="78.579" y2="-2.02" width="0.1524" layer="1"/>
-<wire x1="78.6384" y1="-1.0668" x2="78.579" y2="-1.02" width="0.1524" layer="1"/>
+<wire x1="78.579" y1="-1.02" x2="78.6384" y2="-1.0668" width="0.1524" layer="1"/>
 <wire x1="68.961" y1="-6.2484" x2="70.104" y2="-6.2484" width="0.1524" layer="1"/>
 <wire x1="73.3806" y1="-6.2484" x2="68.961" y2="-6.2484" width="0.1524" layer="16"/>
 <wire x1="73.7616" y1="-6.2484" x2="73.3806" y2="-6.2484" width="0.1524" layer="1"/>
@@ -3653,11 +3655,19 @@ design rules under a new name.</description>
 <contactref element="USBC_USB" pad="B4"/>
 <wire x1="78.579" y1="-3.82" x2="78.579" y2="-3.52" width="0.3" layer="1"/>
 <wire x1="78.579" y1="-3.52" x2="77.78" y2="-3.52" width="0.3" layer="1"/>
-<wire x1="77.78" y1="-3.52" x2="76.7" y2="-4.6" width="0.3" layer="1"/>
-<wire x1="76.7" y1="-4.6" x2="70.28" y2="-11.02" width="0.3" layer="1"/>
+<wire x1="77.78" y1="-3.52" x2="73.2" y2="-8.1" width="0.3" layer="1"/>
+<wire x1="73.2" y1="-8.1" x2="70.28" y2="-11.02" width="0.3" layer="1"/>
 <wire x1="70.28" y1="-11.02" x2="70.28" y2="-12.05" width="0.3" layer="1"/>
-<wire x1="78.579" y1="0.98" x2="78.579" y2="1.28" width="0" layer="19" extent="1-1"/>
-<wire x1="78.579" y1="-3.52" x2="78.579" y2="0.98" width="0" layer="19" extent="1-1"/>
+<via x="75.4" y="-8.1" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<wire x1="75.4" y1="-8.1" x2="73.2" y2="-8.1" width="0.3" layer="1"/>
+<via x="75.4" y="5.7" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<wire x1="78.579" y1="1.28" x2="77.92" y2="1.28" width="0.3" layer="1"/>
+<wire x1="77.92" y1="1.28" x2="75.4" y2="3.8" width="0.3" layer="1"/>
+<wire x1="75.4" y1="3.8" x2="75.4" y2="5.7" width="0.3" layer="1"/>
+<wire x1="78.579" y1="0.98" x2="78.579" y2="1.28" width="0.3" layer="1"/>
+<wire x1="75.4" y1="5.7" x2="75.4" y2="-8.1" width="0.3" layer="16"/>
 </signal>
 <signal name="SRC" class="1">
 <contactref element="EPDC_D_3" pad="2"/>
@@ -3847,10 +3857,6 @@ design rules under a new name.</description>
 <wire x1="6.096" y1="-34.671" x2="4.2672" y2="-36.4998" width="0.1524" layer="1"/>
 <wire x1="4.2672" y1="-40.9194" x2="4.26" y2="-40.984" width="0.1524" layer="1"/>
 <wire x1="6.096" y1="-34.671" x2="6.12" y2="-34.65" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$10">
-<via x="77.4" y="-6.2" extent="1-16" drill="0.35" alwaysstop="yes">
-</via>
 </signal>
 <signal name="N$12">
 </signal>
