@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -1376,7 +1376,7 @@ design rules under a new name.</description>
 </element>
 <element name="EPDC_C_1" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="EAGLE-LTSPICE_C0402" package3d_urn="urn:adsk.eagle:package:47667212/1" value="4.7uF/25V" x="11.73" y="-25.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.365" y="-24.565" size="0.254" layer="25" rot="R270"/>
-<attribute name="VALUE" x="9.825" y="-24.565" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="13.625" y="-24.065" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="EPDH_C_10" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="EAGLE-LTSPICE_C0402" package3d_urn="urn:adsk.eagle:package:47667212/1" value="1uF/50V" x="-11.4" y="-36.81" smashed="yes" rot="R270">
 <attribute name="NAME" x="-12.035" y="-37.925" size="0.254" layer="25" rot="R90"/>
@@ -1454,16 +1454,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.445" y="-15.665" size="0.254" layer="25" rot="R90"/>
 </element>
 <element name="EPDC_D_1" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47667189/1" value="MBR0530" x="-2.41" y="-22.35" smashed="yes">
-<attribute name="NAME" x="-2.41" y="-22.35" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-2.41" y="-22.35" size="1.27" layer="27" align="center"/>
+<attribute name="NAME" x="-2.41" y="-19.45" size="1.27" layer="25" align="center"/>
 </element>
 <element name="EPDC_D_2" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47667189/1" value="MBR0530" x="8.47" y="-25.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.47" y="-25.75" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="8.47" y="-25.75" size="1.27" layer="27" rot="R180" align="center"/>
+<attribute name="NAME" x="8.47" y="-22.85" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="EPDC_D_3" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47667189/1" value="MBR0530" x="8.47" y="-29.35" smashed="yes">
-<attribute name="NAME" x="8.47" y="-29.35" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="8.47" y="-29.35" size="1.27" layer="27" align="center"/>
+<attribute name="NAME" x="8.47" y="-31.75" size="1.27" layer="25" align="center"/>
 </element>
 <element name="SPIESD_D_1" library="EBR_Components" library_urn="urn:adsk.wipprod:fs.file:vf.KYOSsTHATjOII5U8FQZhsg" package="DIOC1608X36N" package3d_urn="urn:adsk.eagle:package:47667191/1" value="PGB1010603MR" x="-35.98" y="-14.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="-35.06" y="-13.075" size="0.254" layer="25" rot="R270"/>
