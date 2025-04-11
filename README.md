@@ -112,6 +112,8 @@ The DeskAssistant v1.0 is a compact electronic device designed around the ESP32 
 
 The schematic highlights the interconnection of these components, with the ESP32 acting as the central processing unit, coordinating data acquisition, processing, and display.
 
+![image](./Images/exploded.png)
+
 ### Processing and Calculations
 
 The ESP32 processes data from the sensors and controls the RGB LED module. Calculations are performed to convert the raw sensor data into relevant units of measurement.
