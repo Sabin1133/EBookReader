@@ -1,6 +1,6 @@
 ###### Copyright Sabin Padurariu 2025
 
-# E-Book Reader
+# OpenBook E-Reader
 
 ## General Overview
 
@@ -141,7 +141,7 @@ Battery life estimations:
 
 ![image](/Images/3d-assembly.png)
 
-## ESP32 GPIO
+### ESP32 GPIO
 
 The ESP32-C6 utilizes its General Purpose Input/Output (GPIO) pins to interface with various peripherals.  Based on the schematic, here are some notable GPIO connections:
 
@@ -168,3 +168,40 @@ The ESP32-C6 employs both SPI and I2C serial communication protocols to interact
 I2C is used for communication with the **RTC module** and the **Environmental sensor** as seen in the schematic. I2C supports multiple devices on the same bus using addressing, making it suitable for communicating with several slower peripherals.
 
 ![image](/Images/pcb-top.png)
+
+## Implementation Problems
+
+### USB Vusb Pin
+
+The Power Pin VUSB had problems when it came to be routed primarily because
+of the placement of the component but also because of the placement of the pins
+of the components on the PCB.
+
+The solution was to just add a via that connected the Top and Bottom layers and
+route the connection using that path. Even though not advisable it was the only
+way possible.
+
+#### Before
+
+![image](/Images/pcb-vusb-before.png)
+
+#### After
+
+![image](/Images/pcb-vusb-after.png)
+
+### SD Card Placement
+
+The placement of the SD Card was a bit off at first due to the placement of the
+pins on the PCB but also due to the fact that the enclosure's was missaligned.
+
+In order to preserve the required specification and the design of the entire
+PCB, the solution was to gently shift the component until the holes aligned
+properly and ensured a proper connection between both ends.
+
+#### Before
+
+![image](/Images/3d-sdcard-before.png)
+
+#### After
+
+![image](/Images/3d-sdcard-after.png)
