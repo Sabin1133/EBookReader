@@ -6,7 +6,7 @@
 
 ![diagram](./Images/diagram.png)
 
-The DeskAssistant v1.0 is a compact electronic device designed around the ESP32 microcontroller. This device integrates several key features, including:
+OpenBook is a compact electronic device designed around the ESP32 microcontroller. This device integrates several key features, including:
 
 * Li-Po battery charging and power management
 * E-Paper display for visual output
@@ -112,7 +112,17 @@ The DeskAssistant v1.0 is a compact electronic device designed around the ESP32 
 
 The schematic highlights the interconnection of these components, with the ESP32 acting as the central processing unit, coordinating data acquisition, processing, and display.
 
-![image](./Images/exploded.png)
+![image](./Images/3d-exploded.png)
+
+## Modules
+
+At its core, Openbook consists of five main modules:
+
+* Power and battery module
+* Processing module
+* General Devices Module
+* I/O Devices Module
+* Display Module
 
 ### Processing and Calculations
 
@@ -123,6 +133,13 @@ Power consumption calculations:
 * ESP32 in active mode consumes around 5mA
 * ESP32 in sleep mode consumes around 5µA
 * The temperature and humidity sensor consume approximately 2.5mA
+
+Battery life estimations:
+
+* in normal mode expected lifetime is about 12 weeks
+* in performance mode expected lifetime is about 6 weeks
+
+![image](/Images/3d-assembly.png)
 
 ## ESP32 GPIO
 
@@ -149,3 +166,5 @@ The ESP32-C6 employs both SPI and I2C serial communication protocols to interact
     * **SCL (Serial Clock):** Carries the clock signal
 
 I2C is used for communication with the **RTC module** and the **Environmental sensor** as seen in the schematic. I2C supports multiple devices on the same bus using addressing, making it suitable for communicating with several slower peripherals.
+
+![image](/Images/pcb-top.png)
